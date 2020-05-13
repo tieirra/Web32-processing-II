@@ -1,12 +1,14 @@
 // Mixins in here
-.btn{
-    width: 45%;
-    height: 40px;
-    background-color:@eastern-blue;
-   color: @white;
-}
+
+ 
  
 .contentWidth{
     width:90;
     margin-left: 5%;
+}
+
+.btn (@width , @height){
+  width: @width;
+  background-color: @eastern-blue;
+  color: @white;
 }
