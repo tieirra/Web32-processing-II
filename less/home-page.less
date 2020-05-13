@@ -1,19 +1,29 @@
 
 header{
- 
   border-bottom: dotted black;
+  margin-bottom: 5%;
+}
+ 
+header , nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .container-home {
-  width:80%;
-
+  width:90%;
+align-items: center;
+margin-left: 5%;
+border-bottom: dotted @navigation-border;
 }
+
 
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 90%;
 
    
     
@@ -61,6 +71,8 @@ header{
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
 
     .destination {
       width: 30%;
